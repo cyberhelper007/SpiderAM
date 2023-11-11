@@ -18,27 +18,23 @@ The generated results.csv file incorporates the following columns:
 9.	WAF Detection
 10. Service Probabilities
 
-## How does it Works:
-### 1.	CNAME & A Records:
+## How does it Work?
+#### 1.	CNAME & A Records:
 The script extracts both A (Address) and CNAME (Canonical Name) records for a website, providing essential information about its DNS configuration.
-
-### 2. Port Availability: 
+#### 2. Port Availability: 
 It diligently examines open ports, offering a clear view of port status, including Port 80 and Port 443. This data is crucial for assessing a website's accessibility.
-
-### 3. Server Vitality:
+#### 3. Server Vitality:
 The script delves deeper by analyzing HTTP headers to ascertain the server's responsiveness. This goes beyond mere connectivity to determine if the server is genuinely active.
-
-### 4. Website Exploration: 
+#### 4. Website Exploration: 
 It takes the analysis a step further by opening the website and retrieving its title. This enables users to gauge the probability of a live website based on its content.
-
-### 5. Web Application Firewall Detection:
+#### 5. Web Application Firewall Detection:
 The script is equipped to identify the presence of a Web Application Firewall. it promises an added layer of insight into a website's security.
 
 
 ## Installation Guidelines:
 Verify the presence of Python on your system.
 
-#### 1st Step
+### 1st Step
 
 Commence by opening your command prompt or terminal, "Navigate to the directory" where the script resides. 
 ```
@@ -51,13 +47,13 @@ Ensure that you install the dependencies for this application by executing the c
 pip install -r requirements.txt
 ```
 
-#### 2nd Step
+### 2nd Step
 It is essential to have a CSV file named hostnames.csv containing the list of website hostnames.
 ##### open the file "hostnames.csv" in the text editor or spreadsheet editor such as microsoft excel
 Ensure the hostnames are listed in a single column without any headers.
 
 
-#### 3rd Step 
+### 3rd Step 
 Execute the script using the following command:
 
 ```
@@ -70,7 +66,7 @@ or
 python spiderAM.py 
 ```
 
-### Monitoring Progress:
+## Monitoring Progress:
 The program initiates the monitoring process and keeps you informed with a progress percentage, indicating the extent of completion:
 
 ![image](https://github.com/cyberhelper007/SpiderAM/assets/150381883/43af1890-0d4f-4936-8be5-de422d2905e8)
