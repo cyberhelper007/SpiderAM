@@ -18,7 +18,7 @@ The generated results.csv file incorporates the following columns:
 9.	WAF Detection
 10. Service Probabilities
 
-## How it Works:
+## How does it Works:
 ### 1.	CNAME & A Records:
 The script extracts both A (Address) and CNAME (Canonical Name) records for a website, providing essential information about its DNS configuration.
 
