@@ -32,10 +32,10 @@ pip install -r requirements.txt
 ```
 
 #### 2nd Step
-It is essential to have a CSV file named hostnames.csv containing the list of website hostnames. Ensure the hostnames are listed in a single column without any headers.
-```
-open the file "hostnames.csv" in the text editor or spreadsheet editor such as microsoft excel
-```
+It is essential to have a CSV file named hostnames.csv containing the list of website hostnames.
+Ensure the hostnames are listed in a single column without any headers.
+##### open the file "hostnames.csv" in the text editor or spreadsheet editor such as microsoft excel
+
 
 #### 3rd Step 
 Execute the script using the following command:
