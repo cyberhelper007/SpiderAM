@@ -22,7 +22,7 @@ Verify the presence of Python on your system.
 
 #### 1st Step
 
-Commence by opening your command prompt or terminal, Navigate to the directory where the script resides. Execute the script using the following command:
+Commence by opening your command prompt or terminal, Navigate to the directory where the script resides. 
 ```
 cd /Users/Your_Patch/SpiderAM-main
 ```
@@ -38,7 +38,7 @@ open the file "hostnames.csv" in the text editor or spreadsheet editor such as m
 ```
 
 #### 3rd Step 
-Depending on which version of Python do you have execute one of below commands:
+Execute the script using the following command:
 
 ```
 python3 spiderAM.py 
@@ -53,8 +53,10 @@ python spiderAM.py
 ### Monitoring Progress:
 The program initiates the monitoring process and keeps you informed with a progress percentage, indicating the extent of completion.
 
-### Viewing Results:
-Upon successful completion of the monitoring, the script generates an output in the form of a CSV file named results.csv. This file is a treasure trove of detailed information regarding the monitored websites.
+![image](https://github.com/cyberhelper007/SpiderAM/assets/150381883/b8017490-9c4d-463f-93d9-39135c9df86c)
+
+### Viewing Output / Results:
+Upon the successful conclusion of the monitoring process, the script produces a CSV file named results.csv. Within this file lies a wealth of intricate details pertaining to the monitored websites. Ultimately, this culminates in the creation of an output file, results.csv, providing a convenient avenue for effortless examination and analysis of the acquired results using Excel.
 
 ### Sample Output CSV Format:
 The generated results.csv file incorporates the following columns:
@@ -69,4 +71,3 @@ The generated results.csv file incorporates the following columns:
 8.	HTTP Headers
 9.	WAF Detection
 10. Service Probabilities
-`
