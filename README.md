@@ -20,21 +20,26 @@ The script is equipped to identify the presence of a Web Application Firewall. i
 ## Installation Guidelines:
 Verify the presence of Python on your system.
 
-It is essential to have a CSV file named hostnames.csv containing the list of website hostnames. Ensure the hostnames are listed in a single column without any headers.
-
 #### 1st Step
+
+Commence by opening your command prompt or terminal, Navigate to the directory where the script resides. Execute the script using the following command:
+```
+cd /Users/Your_Patch/SpiderAM-main
+```
+
 ```
 pip install -r requirements.txt
 ```
 
-Commence by opening your command prompt or terminal, Navigate to the directory where the script resides. Execute the script using the following command:
-
 #### 2nd Step
+It is essential to have a CSV file named hostnames.csv containing the list of website hostnames. Ensure the hostnames are listed in a single column without any headers.
 ```
-cd /Users/YourUserName/Desktop/
+open the file "hostnames.csv" in the text editor or spreadsheet editor such as microsoft excel
 ```
 
 #### 3rd Step 
+Depending on which version of Python do you have execute one of below commands:
+
 ```
 python3 spiderAM.py 
 ```
