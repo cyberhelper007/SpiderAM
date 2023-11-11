@@ -3,7 +3,7 @@ SpiderAM offers a holistic approach to website monitoring, empowering users to m
 SpiderAM was originally developed to assess the operational status of websites, with a focus on providing comprehensive insights into their functionality and hosting environment. It recognizes the challenges associated with solely relying on basic ping checks, which can yield false positives if the ping is obstructed. Additionally, determining the hosting service provider can be a complex task. However, this script offers a multi-faceted approach to address these challenges:
 
 ## Viewing Output / Results:
-Upon the successful conclusion of the monitoring process, the script produces a CSV file named results.csv. Within this file lies a wealth of intricate details pertaining to the monitored websites. Ultimately, this culminates in the creation of an `output file` <strong>results.csv</strong>, providing a convenient avenue for effortless examination and analysis of the acquired results using Excel.
+Upon the successful conclusion of the monitoring process, the script produces a `CSV file` named <strong>results.csv</strong>. Within this file lies a wealth of intricate details pertaining to the monitored websites. Ultimately, this culminates in the creation of an `output file` results.csv, providing a convenient avenue for effortless examination and analysis of the acquired results using Excel.
 ![Viewing Output Results](https://github.com/cyberhelper007/SpiderAM/assets/150381883/2191022e-54e0-4d72-a393-ab9dae79081f)
 #### Sample Output CSV Format:
 The generated results.csv file incorporates the following columns:
