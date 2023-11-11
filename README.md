@@ -51,12 +51,13 @@ python spiderAM.py
 ```
 
 ### Monitoring Progress:
-The program initiates the monitoring process and keeps you informed with a progress percentage, indicating the extent of completion.
+The program initiates the monitoring process and keeps you informed with a progress percentage, indicating the extent of completion:
 
-![image](https://github.com/cyberhelper007/SpiderAM/assets/150381883/b8017490-9c4d-463f-93d9-39135c9df86c)
+![image](https://github.com/cyberhelper007/SpiderAM/assets/150381883/43af1890-0d4f-4936-8be5-de422d2905e8)
 
 ### Viewing Output / Results:
 Upon the successful conclusion of the monitoring process, the script produces a CSV file named results.csv. Within this file lies a wealth of intricate details pertaining to the monitored websites. Ultimately, this culminates in the creation of an output file, results.csv, providing a convenient avenue for effortless examination and analysis of the acquired results using Excel.
+![Viewing Output Results](https://github.com/cyberhelper007/SpiderAM/assets/150381883/2191022e-54e0-4d72-a393-ab9dae79081f)
 
 ### Sample Output CSV Format:
 The generated results.csv file incorporates the following columns:
