@@ -39,7 +39,7 @@ Verify the presence of Python on your system.
 
 #### 1st Step
 
-Commence by opening your command prompt or terminal, Navigate to the directory where the script resides. 
+Commence by opening your command prompt or terminal, "Navigate to the directory" where the script resides. 
 ```
 cd /Users/Your_Patch/SpiderAM-main
 ```
