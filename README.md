@@ -4,7 +4,6 @@ SpiderAM was originally developed to assess the operational status of websites, 
 
 ## Viewing Output / Results:
 Following the successful completion of the monitoring process, the script generates a detailed `CSV file` named <strong>results.csv</strong>. This file encapsulates a wealth of intricate details about the monitored websites. Ultimately, the creation of the results.csv output file facilitates a straightforward approach to examining and analyzing the obtained results using Excel.
-
 ![Viewing Output Results](https://github.com/cyberhelper007/SpiderAM/assets/150381883/2191022e-54e0-4d72-a393-ab9dae79081f)
 Sample Output CSV Format, The generated results.csv file incorporates the following columns:
 1.	Hostname
