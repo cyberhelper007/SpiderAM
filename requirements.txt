@@ -1,4 +1,4 @@
 requests
-BeautifulSoup (bs4)
+beautifulsoup4
 dnspython
 wafw00f
